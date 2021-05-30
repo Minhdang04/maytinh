@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .hangmot, .hanghai, .hangba, .hangbon {
+        flex-direction: column;
+    }
+    button {
+        border-radius: 50%;
+    }
+</style>
+<body>
+    <button class="dau" id="reset" style="border-radius: 40%;">Reset</button>
+    <p id="ketqua"></p>
+    <div class="hangmot">
+        <button class="so" id="bay" style="background-color: #a5a5a5;">7</button>
+        <button class="so" id="tam" style="background-color: #a5a5a5;">8</button>
+        <button class="so" id="chin" style="background-color: #a5a5a5;">9</button>
+        <button class="dau" id="cong" style="padding: 2px 6.5px;">+</button>
+    </div>
+    <div class="hanghai">
+        <button class="so" id="bon" style="background-color: #a5a5a5;">4</button>
+        <button class="so" id="nam" style="background-color: #a5a5a5;">5</button>
+        <button class="so" id="sau" style="background-color: #a5a5a5;">6</button>
+        <button class="dau" id="tru" style="padding: 2px 8px;">-</button>
+    </div>
+    <div class="hangba">
+        <button class="so" id="mot" style="background-color: #a5a5a5;">1</button>
+        <button class="so" id="hai" style="background-color: #a5a5a5;">2</button>
+        <button class="so" id="ba" style="background-color: #a5a5a5;">3</button>
+        <button class="dau" id="nhan" style="padding: 2px 8px;">*</button>
+    </div>
+    <div class="hangbon">
+        <button class="so" id="khong" style="padding:2px 20px; border-radius: 40%; background-color: #a5a5a5;">0</button>
+        <button class="dau" id="bang">=</button>
+        <button class="dau" id="chia" style="padding: 2px 8px;">/</button>
+    </div>
+    <script src="./cacu.js"></script>
+</body>
+</html>
